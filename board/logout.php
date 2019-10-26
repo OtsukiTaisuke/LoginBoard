@@ -2,5 +2,5 @@
 session_start();
 
 $_SESSION = [];
-header('Location: /board/index.php');
+header('Location: /LoginBoard/board/index.php');
 exit;
