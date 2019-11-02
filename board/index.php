@@ -31,11 +31,11 @@ $boardList = $stmt->fetchAll();
 <body>
 <header>
   <div>
-    <a href="/board/index.php">TOP</a>
-    <a href="/board/create_board.php">掲示板作成</a>
-    <a href="/board/register.php">新規作成</a>
-    <a href="/board/login.php">ログイン</a>
-    <a href="/board/logout.php">ログアウト</a>
+    <a href="/LoginBoard/board/index.php">TOP</a>
+    <a href="/LoginBoard/board/create_board.php">掲示板作成</a>
+    <a href="/LoginBoard/board/register.php">新規作成</a>
+    <a href="/LoginBoard/board/login.php">ログイン</a>
+    <a href="/LoginBoard/board/logout.php">ログアウト</a>
   </div>
   <h1>トップ</h1>
 </header>
