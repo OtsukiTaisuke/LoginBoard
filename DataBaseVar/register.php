@@ -45,10 +45,10 @@
  <body>
  <header>
    <div>
-     <a href="/LoginBoard/DataBaseVar/board/index.php">TOP</a>
-     <a href="/LoginBoard/DataBaseVar/board/register.php">新規作成</a>
-     <a href="/LoginBoard/DataBaseVar/board/login.php">ログイン</a>
-     <a href="/LoginBoard/DataBaseVar/board/logout.php">ログアウト</a>
+     <a href="/LoginBoard/DataBaseVar/index.php">TOP</a>
+     <a href="/LoginBoard/DataBaseVar/register.php">新規作成</a>
+     <a href="/LoginBoard/DataBaseVar/login.php">ログイン</a>
+     <a href="/LoginBoard/DataBaseVar/logout.php">ログアウト</a>
    </div>
    <h1>新規作成</h1>
  </header>
