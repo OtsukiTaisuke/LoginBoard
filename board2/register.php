@@ -51,10 +51,10 @@ if(!empty($_POST['name']) && !empty($_POST['mail']) && !empty($_POST['password']
 <body>
 <header>
   <div>
-    <a href="/board/index.php">TOP</a>
-    <a href="/board/register.php">新規作成</a>
-    <a href="/board/login.php">ログイン</a>
-    <a href="/board/logout.php">ログアウト</a>
+    <a href="/LoginBoard/board/index.php">TOP</a>
+    <a href="/LoginBoard/board/register.php">新規作成</a>
+    <a href="/LoginBoard/board/login.php">ログイン</a>
+    <a href="/LoginBoard/board/logout.php">ログアウト</a>
   </div>
   <h1>新規作成</h1>
 </header>

@@ -2,7 +2,7 @@
 session_start();
 
 if(empty($_GET['id'])) {
-    header('Location: /board/index.php');
+    header('Location: /LoginBoard/board/index.php');
     exit;
 }
 $id = $_GET['id'];
@@ -31,7 +31,7 @@ $board = $stmt->fetch();
 
 // 掲示板がなければトップに飛ばす
 if(empty($board)) {
-    header('Location: /board/index.php');
+    header('Location: /LoginBoard/board/index.php');
     exit;
 }
 
@@ -66,7 +66,7 @@ $commentList = $stmt->fetchAll();
 <body>
 <header>
   <div>
-    <a href="/board/index.php">TOP</a>
+    <a href="/LoginBoard/board/index.php">TOP</a>
     <a href="/board/create_board.php">掲示板作成</a>
     <a href="/board/register.php">新規作成</a>
     <a href="/board/login.php">ログイン</a>
